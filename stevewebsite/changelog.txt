@@ -1,0 +1,2 @@
+Version 0.12:
+* New GUI on both the home and stupid page.

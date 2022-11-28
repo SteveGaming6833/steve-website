@@ -1,7 +1,38 @@
+html {
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  font-family: Helvetica Neue, Arial;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.nav {
+  float: left;
+  list-style: none;
+  margin-top: 28px;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.nav li a:link,
+.nav li a:visited {
+  padding: 5px 0;
+  color: rgb(85, 99, 205);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.nav li a:hover,
+.nav li a:active {
+  border-bottom: 2px solid rgb(67, 81, 192);
 }
 
 .absolute {
@@ -48,21 +79,15 @@ body {
 .links-box {
   background-color: rgb(243, 255, 254);
   border: 1px solid rgb(138, 138, 138);
-  font-family: Helvetica Neue, Arial;
   font-size: 16px;
   width: 80%;
   padding-right: 30px;
   padding: 5px;
 }
 
-h1,
-h2 {
-  font-family: Helvetica Neue, Arial;
-}
-
 h1 {
   font-size: 45px;
-  color: rgba(14, 85, 156, 0.8);
+  color: rgba(18, 90, 161, 0.8);
   margin-bottom: 28px;
 }
 
@@ -72,14 +97,8 @@ h2 {
   margin-bottom: 14px;
 }
 
-p {
-  font-size: 18px;
-  font-family: Helvetica Neue, Arial;
-}
-
 .baller {
   color: rgb(192, 0, 29);
-  font-size: 18px;
 }
 
 .mario {
