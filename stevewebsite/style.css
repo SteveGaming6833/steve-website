@@ -10,29 +10,40 @@ html {
   box-sizing: border-box;
 }
 
-.nav {
+.nav1,
+.nav2 {
   float: left;
   list-style: none;
   margin-top: 28px;
 }
 
-.nav li {
+.nav1 li,
+.nav2 li {
   display: inline-block;
   margin-left: 35px;
 }
 
-.nav li a:link,
-.nav li a:visited {
+.nav1 li a:hover,
+.nav1 li a:active,
+.nav2 li a:hover,
+.nav2 li a:active {
+  border-bottom: 2px solid rgb(67, 81, 192);
+}
+
+.nav1 li a:link,
+.nav1 li a:visited,
+.nav2 li a:link,
+.nav2 li a:visited {
   padding: 5px 0;
   color: rgb(85, 99, 205);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 25px;
 }
 
-.nav li a:hover,
-.nav li a:active {
-  border-bottom: 2px solid rgb(67, 81, 192);
+.nav2 li a:link,
+.nav2 li a:visited {
+  font-size: 21px;
 }
 
 .absolute {

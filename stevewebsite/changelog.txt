@@ -1,2 +1,5 @@
+Version 0.13:
+* Not much, just changed the links a bit.
+
 Version 0.12:
-* New GUI on both the home and stupid page.
+* New UI on both the home and stupid page.
