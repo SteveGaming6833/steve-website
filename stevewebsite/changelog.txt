@@ -1,5 +1,11 @@
+Version 0.15:
+- New page dedicated to Cool Obby 2!
+- YouTube About Me on the main page (please help me with what I'm supposed to put here lol).
+- 2 more copypastas on the stupid page.
+- Made the text on the main page less... bad to look at.
+
 Version 0.13:
-* Not much, just changed the links a bit.
+- Not much, just changed the links a bit.
 
 Version 0.12:
-* New UI on both the home and stupid page.
+- New UI on both the home and stupid page.
